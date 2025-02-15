@@ -3,7 +3,7 @@ import streamlit as st
 import json
 import openai
 
-api_key = st.secrets["openai"]["api_key"]
+api_key = st.secrets["api"]["key"]
 openai.api_key = api_key
 
 start_message = """
